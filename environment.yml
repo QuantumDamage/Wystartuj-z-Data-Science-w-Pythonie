@@ -4,21 +4,26 @@ channels:
   - defaults
 dependencies:
   - asn1crypto=0.24.0=py36_0
+  - attrs=18.1.0=py_1
   - ca-certificates=2018.4.16=0
   - certifi=2018.4.16=py36_0
   - cffi=1.11.5=py36_0
   - chardet=3.0.4=py36_0
   - cryptography=2.2.1=py36hdffb7b8_1
   - deap=1.2.2=py36hf8a1672_0
+  - eli5=0.8=py_0
   - idna=2.7=py36_0
   - openssl=1.0.2o=0
   - pycparser=2.18=py36_0
   - pyopenssl=18.0.0=py36_0
   - pysocks=1.6.8=py36_1
   - requests=2.19.1=py36_0
+  - singledispatch=3.4.0.3=py36_0
   - stopit=1.1.2=py_0
+  - tabulate=0.8.2=py_0
   - tpot=0.9.3=py_0
   - tqdm=4.23.4=py_0
+  - typing=3.6.4=py36_0
   - update_checker=0.16=py_0
   - urllib3=1.23=py36_0
   - backcall=0.1.0=py36_0
