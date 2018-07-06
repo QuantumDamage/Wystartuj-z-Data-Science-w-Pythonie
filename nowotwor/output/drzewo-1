@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<worst concavity &le; 0.26<br/>entropy = 0.981<br/>samples = 286<br/>value = [191, 264]<br/>class = Ł>, fillcolor="#399de547"] ;
+1 [label=<worst concave points &le; 0.129<br/>entropy = 0.347<br/>samples = 155<br/>value = [15, 216]<br/>class = Ł>, fillcolor="#399de5ed"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<worst area &le; 906.1<br/>entropy = 0.227<br/>samples = 146<br/>value = [8, 210]<br/>class = Ł>, fillcolor="#399de5f5"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.0<br/>samples = 138<br/>value = [0, 206]<br/>class = Ł>, fillcolor="#399de5ff"] ;
+2 -> 3 ;
+4 [label=<entropy = 0.918<br/>samples = 8<br/>value = [8, 4]<br/>class = Z>, fillcolor="#e581397f"] ;
+2 -> 4 ;
+5 [label=<entropy = 0.996<br/>samples = 9<br/>value = [7, 6]<br/>class = Z>, fillcolor="#e5813924"] ;
+1 -> 5 ;
+6 [label=<mean perimeter &le; 98.57<br/>entropy = 0.75<br/>samples = 131<br/>value = [176, 48]<br/>class = Z>, fillcolor="#e58139b9"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label=<worst radius &le; 16.305<br/>entropy = 0.969<br/>samples = 48<br/>value = [31, 47]<br/>class = Ł>, fillcolor="#399de557"] ;
+6 -> 7 ;
+8 [label=<mean smoothness &le; 0.112<br/>entropy = 0.577<br/>samples = 33<br/>value = [7, 44]<br/>class = Ł>, fillcolor="#399de5d6"] ;
+7 -> 8 ;
+9 [label=<entropy = 0.159<br/>samples = 28<br/>value = [1, 42]<br/>class = Ł>, fillcolor="#399de5f9"] ;
+8 -> 9 ;
+10 [label=<entropy = 0.811<br/>samples = 5<br/>value = [6, 2]<br/>class = Z>, fillcolor="#e58139aa"] ;
+8 -> 10 ;
+11 [label=<concavity error &le; 0.036<br/>entropy = 0.503<br/>samples = 15<br/>value = [24, 3]<br/>class = Z>, fillcolor="#e58139df"] ;
+7 -> 11 ;
+12 [label=<entropy = 0.0<br/>samples = 9<br/>value = [17, 0]<br/>class = Z>, fillcolor="#e58139ff"] ;
+11 -> 12 ;
+13 [label=<entropy = 0.881<br/>samples = 6<br/>value = [7, 3]<br/>class = Z>, fillcolor="#e5813992"] ;
+11 -> 13 ;
+14 [label=<worst radius &le; 17.795<br/>entropy = 0.059<br/>samples = 83<br/>value = [145, 1]<br/>class = Z>, fillcolor="#e58139fd"] ;
+6 -> 14 ;
+15 [label=<entropy = 0.544<br/>samples = 5<br/>value = [7, 1]<br/>class = Z>, fillcolor="#e58139db"] ;
+14 -> 15 ;
+16 [label=<entropy = 0.0<br/>samples = 78<br/>value = [138, 0]<br/>class = Z>, fillcolor="#e58139ff"] ;
+14 -> 16 ;
+}

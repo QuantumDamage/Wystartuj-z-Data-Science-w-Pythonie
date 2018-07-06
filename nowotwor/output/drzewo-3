@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<worst radius &le; 16.795<br/>entropy = 0.973<br/>samples = 286<br/>value = [184, 271]<br/>class = Ł>, fillcolor="#399de552"] ;
+1 [label=<worst concave points &le; 0.151<br/>entropy = 0.367<br/>samples = 184<br/>value = [20, 264]<br/>class = Ł>, fillcolor="#399de5ec"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<mean fractal dimension &le; 0.056<br/>entropy = 0.089<br/>samples = 172<br/>value = [3, 262]<br/>class = Ł>, fillcolor="#399de5fc"] ;
+1 -> 2 ;
+3 [label=<concave points error &le; 0.007<br/>entropy = 0.469<br/>samples = 17<br/>value = [3, 27]<br/>class = Ł>, fillcolor="#399de5e3"] ;
+2 -> 3 ;
+4 [label=<entropy = 0.0<br/>samples = 12<br/>value = [0, 22]<br/>class = Ł>, fillcolor="#399de5ff"] ;
+3 -> 4 ;
+5 [label=<entropy = 0.954<br/>samples = 5<br/>value = [3, 5]<br/>class = Ł>, fillcolor="#399de566"] ;
+3 -> 5 ;
+6 [label=<entropy = 0.0<br/>samples = 155<br/>value = [0, 235]<br/>class = Ł>, fillcolor="#399de5ff"] ;
+2 -> 6 ;
+7 [label=<worst perimeter &le; 104.85<br/>entropy = 0.485<br/>samples = 12<br/>value = [17, 2]<br/>class = Z>, fillcolor="#e58139e1"] ;
+1 -> 7 ;
+8 [label=<entropy = 0.811<br/>samples = 5<br/>value = [6, 2]<br/>class = Z>, fillcolor="#e58139aa"] ;
+7 -> 8 ;
+9 [label=<entropy = 0.0<br/>samples = 7<br/>value = [11, 0]<br/>class = Z>, fillcolor="#e58139ff"] ;
+7 -> 9 ;
+10 [label=<concavity error &le; 0.02<br/>entropy = 0.247<br/>samples = 102<br/>value = [164, 7]<br/>class = Z>, fillcolor="#e58139f4"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+11 [label=<entropy = 0.994<br/>samples = 8<br/>value = [5, 6]<br/>class = Ł>, fillcolor="#399de52a"] ;
+10 -> 11 ;
+12 [label=<worst radius &le; 17.035<br/>entropy = 0.055<br/>samples = 94<br/>value = [159, 1]<br/>class = Z>, fillcolor="#e58139fd"] ;
+10 -> 12 ;
+13 [label=<entropy = 0.65<br/>samples = 5<br/>value = [5, 1]<br/>class = Z>, fillcolor="#e58139cc"] ;
+12 -> 13 ;
+14 [label=<entropy = 0.0<br/>samples = 89<br/>value = [154, 0]<br/>class = Z>, fillcolor="#e58139ff"] ;
+12 -> 14 ;
+}

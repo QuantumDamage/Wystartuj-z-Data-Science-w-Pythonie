@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<worst concave points &le; 0.142<br/>entropy = 0.953<br/>samples = 281<br/>value = [170, 285]<br/>class = Ł>, fillcolor="#399de567"] ;
+1 [label=<radius error &le; 0.548<br/>entropy = 0.344<br/>samples = 187<br/>value = [19, 277]<br/>class = Ł>, fillcolor="#399de5ee"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<worst area &le; 785.75<br/>entropy = 0.235<br/>samples = 179<br/>value = [11, 275]<br/>class = Ł>, fillcolor="#399de5f5"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.0<br/>samples = 160<br/>value = [0, 258]<br/>class = Ł>, fillcolor="#399de5ff"] ;
+2 -> 3 ;
+4 [label=<smoothness error &le; 0.004<br/>entropy = 0.967<br/>samples = 19<br/>value = [11, 17]<br/>class = Ł>, fillcolor="#399de55a"] ;
+2 -> 4 ;
+5 [label=<entropy = 0.918<br/>samples = 5<br/>value = [6, 3]<br/>class = Z>, fillcolor="#e581397f"] ;
+4 -> 5 ;
+6 [label=<entropy = 0.831<br/>samples = 14<br/>value = [5, 14]<br/>class = Ł>, fillcolor="#399de5a4"] ;
+4 -> 6 ;
+7 [label=<entropy = 0.722<br/>samples = 8<br/>value = [8, 2]<br/>class = Z>, fillcolor="#e58139bf"] ;
+1 -> 7 ;
+8 [label=<worst perimeter &le; 98.1<br/>entropy = 0.288<br/>samples = 94<br/>value = [151, 8]<br/>class = Z>, fillcolor="#e58139f1"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<entropy = 0.811<br/>samples = 5<br/>value = [2, 6]<br/>class = Ł>, fillcolor="#399de5aa"] ;
+8 -> 9 ;
+10 [label=<texture error &le; 0.635<br/>entropy = 0.102<br/>samples = 89<br/>value = [149, 2]<br/>class = Z>, fillcolor="#e58139fc"] ;
+8 -> 10 ;
+11 [label=<entropy = 0.764<br/>samples = 5<br/>value = [7, 2]<br/>class = Z>, fillcolor="#e58139b6"] ;
+10 -> 11 ;
+12 [label=<entropy = 0.0<br/>samples = 84<br/>value = [142, 0]<br/>class = Z>, fillcolor="#e58139ff"] ;
+10 -> 12 ;
+}
